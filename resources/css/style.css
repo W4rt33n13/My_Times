@@ -1,0 +1,58 @@
+body{
+
+}
+
+div{
+  border: 1px solid black;
+}
+
+
+.column{
+
+}
+
+.large{
+  width: 630px;
+}
+.medium{
+  width: 300px;
+}
+.small{
+  width: 240px;
+}
+
+.header{
+  display: inline-flex;
+  font-size: 16px;
+  font-family: Verdana;
+  font-weight: bold;
+  align-items: center;
+  border-bottom: solid 1px black;
+  width: 100%;
+  height: 80px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+.logo span{
+  padding-left: 20px;
+  color: MediumAquamarine;
+  font-style: bold;
+}
+
+.header img{
+  border-right: solid 1px MediumAquamarine;
+}
+
+.nav{
+  display: block;
+  padding-right: 40px;
+}
+
+.nav a{
+    padding-right: 40px;
+    color: black;
+}
